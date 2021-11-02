@@ -9,7 +9,7 @@ def main():
     
     for line in sys.stdin:
         timestamp = datetime.now().strftime(format)
-        print(timestamp + line.rstrip("\n"))
+        print(timestamp + line.rstrip("\n"), flush=True)
 
 
 if __name__ == '__main__':
