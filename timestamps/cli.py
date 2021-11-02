@@ -7,7 +7,7 @@ import sys
 
 def main():
     parser = argparse.ArgumentParser(prog='timestamps')
-    parser.add_argument('-f', '--format', dest='format',  nargs='?', type=str, default='%Y-%m-%d %H:%M:%S ', help='timestamp format')
+    parser.add_argument('-f', '--format', dest='format', type=str, default='%Y-%m-%d %H:%M:%S ', help='timestamp format')
     parser.add_argument('-t', '--total', dest='total', action='store_true', default=False, help='display total time taken at the end')
     args = parser.parse_args()
     timestamp_format = args.format
