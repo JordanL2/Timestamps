@@ -22,6 +22,6 @@ usage: timestamps [-h] [-f [FORMAT]] [-t]
 optional arguments:
   -h, --help            show this help message and exit
   -f [FORMAT], --format [FORMAT]
-                        Timestamp format
-  -t, --total           Display total time taken at the end
+                        timestamp format
+  -t, --total           display total time taken at the end
 ```
